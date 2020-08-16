@@ -1,6 +1,8 @@
 Xerox: Copy + Paste for Python
 ==============================
 
+Upstream slow to to respond to PRs. Also consider https://github.com/asweigart/pyperclip where there is a PR for Wayland support.
+
 *Xerox* is a copy + paste module for python. It's aim is simple: to be as incredibly simple as possible.
 
 Supported platforms are currently OS X, X11 (Linux, BSD, etc.), and Windows.
