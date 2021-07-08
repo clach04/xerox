@@ -31,6 +31,16 @@ clipboard::
 
     xerox.paste(xsel=True)
 
+On Windows you can optionally copy into the clipboard in html mode::
+
+    xerox.copy(u'<p>Writing to the clipboard is <strong>easy</strong> with this code.</p>', html=True)
+
+This will also paste the html into the text clipboard for applications
+that do not support html mode.
+HTML paste from the clipboard is not implemented. Unlike xsel support,
+there is no silent failure if html mode is requested with a backend
+that does not support it.
+
 And, that's it.
 
 Command Line
