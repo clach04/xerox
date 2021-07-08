@@ -72,6 +72,12 @@ Note: If you are installing xerox on Windows, you will also need to install the 
 Note: On X11 systems, Xerox requires Xclip, which can be found through your system package manager (e.g. apt-get install xclip) or at https://github.com/astrand/xclip
 
 
+To Do Items
+-----------
+
+* Android support
+* RTF copy support (for Windows and xclip)
+
 Legal Stuff
 -----------
 
