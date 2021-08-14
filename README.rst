@@ -1,7 +1,7 @@
 Xerox: Copy + Paste for Python
 ==============================
 
-Upstream slow to to respond to PRs. Also consider https://github.com/asweigart/pyperclip where there is a PR for Wayland support.
+Upstream slow to to respond to PRs. Also consider https://github.com/asweigart/pyperclip where there is a PR for Wayland support (note as of 2021-08-13 it also has a backlog of PRs, also see https://github.com/clach04/pyperclip/tree/html_linux_win32).
 
 *Xerox* is a copy + paste module for python. It's aim is simple: to be as incredibly simple as possible.
 
@@ -75,7 +75,7 @@ Note: On X11 systems, Xerox requires Xclip, which can be found through your syst
 To Do Items
 -----------
 
-* Android support
+* Android support (see https://github.com/clach04/toys4droids/blob/master/remote_clipboard.py)
 * RTF copy support (for Windows and xclip)
 
 Legal Stuff
