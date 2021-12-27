@@ -77,6 +77,7 @@ To Do Items
 
 * Android support (see https://github.com/clach04/toys4droids/blob/master/remote_clipboard.py)
 * RTF copy support (for Windows and xclip)
+* Jython / Have support https://github.com/fracpete/jclipboardhelper
 
 Legal Stuff
 -----------
