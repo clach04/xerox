@@ -1,5 +1,5 @@
-Xerox: Copy + Paste for Python
-==============================
+Xerox: Copy + Paste clipboard access for Python
+===============================================
 
 Upstream slow to to respond to PRs. Also consider https://github.com/asweigart/pyperclip where there is a PR for Wayland support (note as of 2021-08-13 it also has a backlog of PRs, also see https://github.com/clach04/pyperclip/tree/html_linux_win32).
 
