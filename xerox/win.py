@@ -92,7 +92,10 @@ def paste(**kwargs):
 
     clip.OpenClipboard() 
     try:
-        d = clip.GetClipboardData(win32con.CF_UNICODETEXT)
+        if kwargs.get('html'):
+            d = clip.GetClipboardData(CF_HTML)
+        else:
+            d = clip.GetClipboardData(win32con.CF_UNICODETEXT)
     except TypeError:
         # Handle, "Specified clipboard format is not available"
         # Either clipboard is empty or does NOT contain text
