@@ -2,6 +2,10 @@ Xerox: Copy + Paste clipboard access for Python
 ===============================================
 
 Upstream slow to to respond to PRs. Also consider https://github.com/asweigart/pyperclip where there is a PR for Wayland support (note as of 2021-08-13 it also has a backlog of PRs, also see https://github.com/clach04/pyperclip/tree/html_linux_win32).
+Differences to upstream:
+
+1. Doesn't crash when clipboard empty or contains non-text data (like bitmaps)
+2. Html formatted intent for both copy and paste (windows only)
 
 *Xerox* is a copy + paste module for python. It's aim is simple: to be as incredibly simple as possible.
 
