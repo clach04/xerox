@@ -82,6 +82,7 @@ To Do Items
 * Android support (see https://github.com/clach04/toys4droids/blob/master/remote_clipboard.py)
 * RTF copy support (for Windows and xclip), see html support
 * CF_CLIPBOARD_VIEWER_IGNORE http://www.clipboardextender.com/developing-clipboard-aware-programs-for-windows/ignoring-clipboard-updates-with-the-cf_clipboard_viewer_ignore-clipboard-format
+* See if https://github.com/enthought/pywin32-ctypes could be used
 * Jython / Have support https://github.com/fracpete/jclipboardhelper
 
 Legal Stuff
