@@ -72,6 +72,7 @@ To install Xerox, simply::
 	$ pip install xerox
 
 Note: If you are installing xerox on Windows, you will also need to install the pywin32_ module.
+FIXME see https://github.com/mu-editor/mu/blob/0203b6e850c16cbb95442026193f1f5bef33a3d4/setup.py#L77 for how to handle this in setup.py.
 
 Note: On X11 systems, Xerox requires Xclip, which can be found through your system package manager (e.g. apt-get install xclip) or at https://github.com/astrand/xclip
 
