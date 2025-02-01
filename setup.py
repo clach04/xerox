@@ -8,6 +8,12 @@ import xerox
 from setuptools import setup
 
 
+is_win = sys.platform.startswith('win')
+
+install_requires = []
+if is_win:  # assume CPython
+    install_requires += ['pywin32']
+
 def publish():
     """Publish to PyPi"""
     os.system("python setup.py sdist upload")
@@ -24,6 +30,7 @@ setup(name='xerox',
       author_email='me@kennethreitz.com',
       url='http://github.com/kennethreitz/xerox',
       packages=['xerox'],
+      install_requires=install_requires,
       entry_points={
         'console_scripts': [
           'xerox = xerox:main',
