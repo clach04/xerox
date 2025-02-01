@@ -7,9 +7,14 @@ found @ http://code.activestate.com/recipes/150115/
 from .base import *
 
 try:
-    from Tkinter import Tk
-except ImportError as why:
-    raise TkinterNotFound
+    # Python 3
+    from tkinter import Tk
+except ImportError:
+    try:
+        # Python 2
+        from Tkinter import Tk
+    except ImportError:
+        raise TkinterNotFound
 
 def copy(string, **kwargs):
     """Copy given string into system clipboard."""
